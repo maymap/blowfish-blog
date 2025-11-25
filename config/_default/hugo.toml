@@ -7,8 +7,12 @@ theme = "blowfish"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 20
 summaryLength = 30
+
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = 'page'
 
 buildDrafts = false
 buildFuture = false
